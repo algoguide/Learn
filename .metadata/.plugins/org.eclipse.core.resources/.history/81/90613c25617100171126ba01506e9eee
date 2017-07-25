@@ -10,14 +10,12 @@ Bonus points if you also write unit tests for normal and edge cases.
 package strings;
 import java.util.HashMap; 
 import java.util.Map;
-import java.util.Set;
-
 
 public class StringPrintDuplicate {
 	
 	public static void main(String args[]){
 		StringPrintDuplicate a = new StringPrintDuplicate();
-		a.duplicateChar("Javjjjaabb");
+		a.duplicateChar("Javjjjaa");
 	}
 	
 	public void duplicateChar(String s){
@@ -32,14 +30,6 @@ public class StringPrintDuplicate {
 		}
 		
 		System.out.println(charMap);
-		
-		Set<Map.Entry<Character, Integer>> entrySet = charMap.entrySet();
-		for(Map.Entry<Character, Integer> entry : entrySet){
-			if(entry.getValue() > 1){
-				System.out.println(entry);
-			}
-		}
-		
 	}
 
 }
