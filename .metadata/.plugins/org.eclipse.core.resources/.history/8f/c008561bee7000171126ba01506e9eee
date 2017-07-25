@@ -11,18 +11,7 @@ public class StringReverse {
 		s.reverseStringUsingToCharArray("Banana Apple");
 		System.out.println();
 		s.reverseString("Banana Apple");
-		System.out.println();
-		s.reverseStringUsingAnotherString("Banana Apple");
 
-	}
-	
-	private void reverseStringUsingAnotherString(String stringToReverse){
-		
-		String reversedString = "";
-		for(int i=stringToReverse.length()-1;i>=0;i--){
-			reversedString = reversedString + stringToReverse.charAt(i);
-		}
-		System.out.print(reversedString);
 	}
 	
 	private void reverseStringUsingCharAt(String stringToReverse){

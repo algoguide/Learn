@@ -5,10 +5,7 @@ public class StringPalindrome {
 	public static void main(String[] args){
 		
 		StringPalindrome s = new StringPalindrome();
-		System.out.println("Yooyi is " + s.checkPalindrome("Yooyi"));
-		System.out.println("Yooy is " + s.checkPalindrome("Yooy"));
-		System.out.println("YooY is " + s.checkPalindrome("YooY"));
-		System.out.println("Test is " + s.checkPalindrome("Test"));
+		System.out.println(s.checkPalindrome("Test"));
 	}
 	
 	private boolean checkPalindrome(String stringToCheck){
@@ -16,11 +13,8 @@ public class StringPalindrome {
 		for(int i=stringToCheck.length()-1;i>=0;i--){
 			reversedString = reversedString + stringToCheck.charAt(i);
 		}
-		if(stringToCheck.equalsIgnoreCase(reversedString))
-			return true;
-		else
-			return false;
+		System.out.print(reversedString);
+		return true;
 	}
 }
 
- 
