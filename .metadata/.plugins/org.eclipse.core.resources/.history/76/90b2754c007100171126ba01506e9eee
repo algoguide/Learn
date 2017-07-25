@@ -15,7 +15,7 @@ public class StringPrintDuplicate {
 	
 	public static void main(String args[]){
 		StringPrintDuplicate a = new StringPrintDuplicate();
-		a.duplicateChar("Javjjjaa");
+		a.duplicateChar("Java");
 	}
 	
 	public void duplicateChar(String s){
@@ -27,9 +27,8 @@ public class StringPrintDuplicate {
 				charMap.put(stringToCharArray[i], charMap.get(stringToCharArray[i]) + 1);
 			} else
 				charMap.put(stringToCharArray[i], 1);
+			
 		}
-		
-		System.out.println(charMap);
 	}
 
 }

@@ -8,28 +8,20 @@ Bonus points if you also write unit tests for normal and edge cases.
 
 
 package strings;
-import java.util.HashMap; 
-import java.util.Map;
 
 public class StringPrintDuplicate {
 	
 	public static void main(String args[]){
 		StringPrintDuplicate a = new StringPrintDuplicate();
-		a.duplicateChar("Javjjjaa");
+		a.duplicateChar("Java");
 	}
 	
 	public void duplicateChar(String s){
 		
 		char[] stringToCharArray = s.toCharArray();
-		Map<Character,Integer> charMap = new HashMap<Character,Integer>();
-		for(int i=0;i<=stringToCharArray.length-1;i++){
-			if(charMap.containsKey(stringToCharArray[i])){
-				charMap.put(stringToCharArray[i], charMap.get(stringToCharArray[i]) + 1);
-			} else
-				charMap.put(stringToCharArray[i], 1);
+		for(int i = stringToCharArray.length-1;i>0;i--){
+			
 		}
-		
-		System.out.println(charMap);
 	}
 
 }

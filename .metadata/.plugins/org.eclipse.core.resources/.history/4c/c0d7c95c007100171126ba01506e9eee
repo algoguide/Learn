@@ -15,7 +15,7 @@ public class StringPrintDuplicate {
 	
 	public static void main(String args[]){
 		StringPrintDuplicate a = new StringPrintDuplicate();
-		a.duplicateChar("Javjjjaa");
+		a.duplicateChar("Javjaa");
 	}
 	
 	public void duplicateChar(String s){
