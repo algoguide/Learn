@@ -1,0 +1,15 @@
+package strings;
+
+public class StringPalindrome {
+	
+	public static void main(String[] args){
+		StringPalindrome s = new StringPalindrome();
+		System.out.println(s.checkPalindrome("Test"));
+		
+	}
+	
+	private boolean checkPalindrome(String stringToCheck){
+		return true;
+	}
+}
+
