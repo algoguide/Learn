@@ -21,7 +21,6 @@ public class StringPalindrome {
 		else
 			return false;
 	}
-	
 }
 
  

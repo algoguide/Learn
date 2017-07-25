@@ -9,6 +9,7 @@ public class StringPalindrome {
 		System.out.println("Yooy is " + s.checkPalindrome("Yooy"));
 		System.out.println("YooY is " + s.checkPalindrome("YooY"));
 		System.out.println("Test is " + s.checkPalindrome("Test"));
+		s.asciiValue();
 	}
 	
 	private boolean checkPalindrome(String stringToCheck){
@@ -22,6 +23,12 @@ public class StringPalindrome {
 			return false;
 	}
 	
+	private void asciiValue(){
+		System.out.print("aAzZ".charAt(0));
+		System.out.print("aAzZ".charAt(1));
+		System.out.print("aAzZ".charAt(2));
+		System.out.print("aAzZ".charAt(3));
+	}
 }
 
  

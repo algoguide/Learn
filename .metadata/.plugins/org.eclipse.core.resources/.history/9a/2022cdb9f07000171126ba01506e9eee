@@ -22,6 +22,10 @@ public class StringPalindrome {
 			return false;
 	}
 	
+	private void asciiValue(){
+		int a = "Test".charAt(0);
+		System.out.print(a);
+	}
 }
 
  
