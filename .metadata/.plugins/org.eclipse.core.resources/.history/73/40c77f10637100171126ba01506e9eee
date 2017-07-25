@@ -36,7 +36,7 @@ public class StringPrintDuplicate {
 		Set<Map.Entry<Character, Integer>> entrySet = charMap.entrySet();
 		for(Map.Entry<Character, Integer> entry : entrySet){
 			if(entry.getValue() > 1){
-				System.out.println(entry.getKey() + " is occurring in " + s  +" more than once, exactly " + entry.getValue() + " times.");
+				System.out.println(entry.getKey() + " is repeating more than once, exactly " + entry.getValue() + " times.");
 			}
 		}
 		
