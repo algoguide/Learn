@@ -1,0 +1,17 @@
+package strings;
+
+public class StringSort {
+
+	public static void main(String args[]){
+		StringSort a = new StringSort();
+		a.sortString("Javjjjaabb");
+	}
+	
+	private void sortString(String stringToSort){
+		
+		
+	}
+	
+	
+	
+}

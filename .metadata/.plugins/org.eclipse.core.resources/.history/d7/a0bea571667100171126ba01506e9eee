@@ -1,0 +1,25 @@
+package strings;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class StringSort {
+
+	public static void main(String args[]){
+		StringSort a = new StringSort();
+		a.sortString("EGHABCFE");
+	}
+	
+	private void sortString(String stringToSort){
+		char[] stringToCharArray = stringToSort.toCharArray();
+		Map<Character,Integer> m = new HashMap<Character,Integer>();
+		for(int i=stringToCharArray.length-1;i>=0;i--){
+			m.put(stringToCharArray[i], (int) stringToCharArray[i]);
+		}
+		System.out.print(m);
+		
+	}
+	
+	
+	
+}
