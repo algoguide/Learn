@@ -21,7 +21,7 @@ public class StringReverseWords {
 		}*/
 		
 		for(int i = stringArray.length-1;i>=0;i--){
-			System.out.print(stringArray[i] + " ");
+			System.out.println(stringArray[i]);
 		}
 		
 	}
