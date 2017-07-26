@@ -1,0 +1,16 @@
+package sorts;
+
+public class SortBubble {
+	
+	public static void main(String[] args){
+		int[] intArray = {9,5,3,1,2,4,7,8,6};
+		SortBubble a = new SortBubble();
+		a.sort(intArray);
+		
+	}
+	
+	private void sort(int[] arrayToSort){
+		System.out.print(arrayToSort.toString());
+	}
+
+}

@@ -1,0 +1,15 @@
+package sorts;
+
+public class SortBubble {
+	
+	public static void main(String[] args){
+		SortBubble a = new SortBubble(int[] intArray);
+		a.sort();
+		
+	}
+	
+	private void sort(int[] arrayToSort){
+		
+	}
+
+}

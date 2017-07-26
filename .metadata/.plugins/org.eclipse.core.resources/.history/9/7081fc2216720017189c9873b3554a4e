@@ -1,0 +1,21 @@
+package sorts;
+
+public class SortBubble {
+	
+	public static void main(String[] args){
+		int[] intArray = {9,5,3,1,2,4,7,8,6};
+		SortBubble a = new SortBubble();
+		a.sort(intArray);
+		
+	}
+	
+	private void sort(int[] arrayToSort){
+		System.out.println("The length of the Integer Array is: " + arrayToSort.length);
+		System.out.print("The Elements of the Integer Array are: ");
+		for(int i=arrayToSort.length-1;i>=0;i--){
+			
+			System.out.print(arrayToSort[i] + ",");
+		}
+	}
+
+}
